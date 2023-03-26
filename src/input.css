@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Rebond';
+  src: url('/public/fonts/Rebond\ Grotesque.otf');
+  src: local('Rebond Regular'), local('Rebond-Regular'),
+      url('/public/fonts/Rebond\ Grotesque.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@layer components{
+  body::before{
+    display: block;
+    content: '';
+    height: 56px;
+  }
+  button, input, textarea{
+    @apply outline-0
+  }
+  #links .active{
+    @apply text-gray-200
+  }
+  ::-webkit-scrollbar-thumb{
+    @apply bg-slate-900
+  }
+  ::-webkit-scrollbar-thumb{
+    border-radius: 15px;
+    border: 1px solid rgb(75 85 99);
+  }
+  ::-webkit-scrollbar{
+    background-color: transparent;
+    width: 8px;
+  }
+}

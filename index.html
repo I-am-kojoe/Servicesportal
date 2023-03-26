@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bare - TailwindCSS</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./public/img/favicon.ico" type="image/x-icon">
+  <!-- Core theme TailwindCSS-->
+  <link rel="stylesheet" href="./public/css/output.css">
+  <!-- Core theme CSS-->
+  <link rel="stylesheet" href="./public/css/styles.css">
+  <!-- Material Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<!-- If you want to change the primary color from green to something else. Change it with the tailwind.config.js in the Project Root Folder -->
+
+<body class="bg-gray-100 font-Rebond">
+
+  <!-- Responsive navbar-->
+  <nav
+    class="flex flex-col sm:flex-row flex-wrap md:items-center px-4 md:px-5 lg:px-16 py-2 justify-center border-b border-gray-600 fixed top-0 z-20 w-full bg-black">
+
+
+    <div class="flex items-center justify-center sm:justify-center gap-x-2 py-4 text-white">
+
+      <!-- Link To Direct to Home Page -->
+      <!-- This can be a logo or a simple text (or both). Just write it in-between the anchor tag below-->
+      <a href="#!" class="py-1 flex items-center text-2xl">
+        <img src="/public/img/Ninani Logo.png" alt="">
+      </a>
+
+    </div>
+
+  </nav>
+
+<!-- Please let this <main></main> tag cover everything in your webpage except the navbar. This enables the navbar links to disappear when the outer parts is clicked. -->
+<!-- If you have a better way of doing this without including the <main> tag. Kindly submit a pull request at https://github.com/abrahamebij/tailwind-boilerplate -->
+  <main>
+
+
+    <!-- Page Content -->
+    <section class="text-left py-32">
+      <div class="flex flex-wrap justify-center items-center gap-8">
+        <a href="">
+          <div class="bg-white text-black hover:bg-black hover:text-white px-28 py-16 rounded-xl text-xl">
+            <span class="material-symbols-outlined">dns</span>
+            <p>Server Management</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="bg-white text-black hover:bg-black hover:text-white px-28 py-16 rounded-xl text-xl">
+            <span class="material-symbols-outlined">security</span>
+            <p>Security Policy Hub</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="bg-white text-black hover:bg-black hover:text-white px-28 py-16 rounded-xl text-xl">
+            <span class="material-symbols-outlined">app_registration</span>
+            <p>Asset Registry</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="bg-white text-black hover:bg-black hover:text-white px-28 py-16 rounded-xl text-xl">
+            <span class="material-symbols-outlined">router</span>
+            <p>Network Status Report</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="bg-white text-black hover:bg-black hover:text-white px-28 py-16 rounded-xl text-xl">
+            <span class="material-symbols-outlined">fluid_balance</span>
+            <p>Ninani Info wiki</p>
+          </div>
+        </a>
+        <a href="">
+          <div class="bg-white text-black hover:bg-black hover:text-white px-28 py-16 rounded-xl text-xl">
+            <span class="material-symbols-outlined">browse_activity</span>
+            <p>Service Desk</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="bg-transparent pb-3 text-white">
+
+ 
+      <!-- Sub Footer -->
+      <div class="h-px w-full bg-gray-400 "></div>
+      <!-- Copyright -->
+      <p class="text-center mt-8 mb-4 font-light text-gray-900">The Ninani Group - Copyright &copy; <span id="year"></span>. All
+        Rights
+        Reserved</p>
+
+    </footer>
+
+
+  </main>
+
+
+  <!-- Core Navbar JS-->
+  <script src="./public/js/navbar.js"></script>
+  <!-- Core theme JS-->
+  <script src="./public/js/scripts.js"></script>
+</body>
+
+</html>
