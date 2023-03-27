@@ -12,6 +12,46 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Rebond';
+  src: url('/public/fonts/Rebond\ Grotesque\ Light.otf');
+  src: local('Rebond Light'), local('Rebond-Light'),
+      url('/public/fonts/Rebond\ Grotesque\ Light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rebond';
+  src: url('/public/fonts/Rebond\ Grotesque\ Medium.otf');
+  src: local('Rebond Medium'), local('Rebond-Medium'),
+      url('/public/fonts/Rebond\ Grotesque\ Medium.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rebond';
+  src: url('/public/fonts/Rebond\ Grotesque\ Semibold.otf');
+  src: local('Rebond Semibold'), local('Rebond-Semibold'),
+      url('/public/fonts/Rebond\ Grotesque\ Semibold.otf') format('otf');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rebond';
+  src: url('/public/fonts/Rebond\ Grotesque\ Bold.otf');
+  src: local('Rebond Bold'), local('Rebond-Bold'),
+      url('/public/fonts/Rebond\ Grotesque\ Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer components{
   body::before{
     display: block;
